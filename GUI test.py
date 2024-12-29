@@ -122,7 +122,7 @@ def click(i):
     
     setlist[i], daylist[i]=info[2], info[1]
 
-    defin = Label(root, text=f"Días de racha {i}: {setlist[i]}")
+    defin = Label(root, text=f"Días de racha : {setlist[i]}")
     defin.pack(side=TOP)
     definlist.append(defin)
     
@@ -156,6 +156,6 @@ if add==0:
 
 tbox = Entry(root, width=10)
 enterbut=Button(root, text="Enter", command=enter)
-refin = Label(root, text="Ingresa un hábito")
+refin = Label(root, text="Enter a habit")
 
 root.mainloop()
